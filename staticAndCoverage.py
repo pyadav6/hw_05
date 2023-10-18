@@ -1,24 +1,28 @@
-"""
-Module for printing the student and assignment details
-"""
-from brand import my_brand
-
-my_brand("HW 05 - Static Code Analysis")
 
 def add(a, b):
+    """
+    Function for adding two inputs
+    """
     return a + b
 
 
 def subtract(a, b):
+    """
+    Function for subtracting two inputs
+    """
     return a - b
 
 
 def multiply(a, b):
+    """
+    Function for multiplying two inputs
+    """
     return a * b
 
 
 def divide(numerator, denominator):
+    """
+    Function for dividing two inputs
+    """
     return float(numerator) / denominator
-
-my_brand("HW 05 - Static Code Analysis")
-# End-of-file (EOF)
+#End-of-file (EOF)
